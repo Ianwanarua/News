@@ -14,7 +14,6 @@
     {% block content%}
     <div id="overlay">
         <div class="container" style="padding-top:4%; margin-top: 2em"style="border: 3px solid white;">
-         
             <h3 style="font-weight: 700; color:white; font-size:35pt; text-align: center;"> Todays' Headlines</h3>
             {% for article_row in articles | batch(3)%}
                 <div class="row">
